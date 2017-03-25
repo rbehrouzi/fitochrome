@@ -1,0 +1,29 @@
+All stored in UserData of inspector figure
+
+database.
+            xdata
+            ydata
+            edata
+            headers
+            datasetID
+            xindex
+            datasetIdx
+            dbName
+
+fitnplt.    
+            data
+            headers
+            datasetID
+            datasetIdx
+            fits
+            confInt
+            xtitle
+            ytitle
+
+            plotGroup
+            colorGroup
+
+masks
+            dataset
+            headers
+            data

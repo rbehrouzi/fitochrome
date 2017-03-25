@@ -1,0 +1,48 @@
+Use double quotations around all parameter values.
+Formula for averaging and std of weighed data
+
+<multifitOptions>
+    <HEADERS>
+        x name: "[ligand]"
+        error name: "err"
+    </HEADERS>
+    <DATA>
+        Remove outlier y values: "NO"
+        Average identical headers: "No"
+        Remove outliers before averaging: "No"
+    </DATA>
+    <DATASET>
+        multiple datasets: "overlay"
+        repeat significance threshold: "1"
+    </DATASET>
+    <FIT>
+         x domain: ""
+         weighted fit: "No"
+         y trend: "auto/ascend/descend/ascdes/desasc"
+    </FIT>
+    <PLOT> 
+         Visible: "on"
+         Combine identical headers: "Yes"
+         x axis scale: "log"
+         x axis text:  "[ligand] nM"
+         y axis text:  "signal"
+    </PLOT>
+    <SIMULATION>
+         simulation Name: ""
+         simulation parameters: ""
+         simulation Equation: ""
+    </SIMULATION>
+    <BOOTSTRAP>
+        iterations: "10000"
+        save results: "yes"
+        confidence: "0.95"
+        plot confidence range: "yes"
+    </BOOTSTRAP>
+    <PLOTSAVE>
+        Ghostscript command path: ""
+        Ghostscript fonts path: ""
+        Ghostscript library path: ""
+        Paper size: ""
+        Page margins: ""
+    </PLOTSAVE>
+</multifitSettings>

@@ -1,0 +1,16 @@
+    FIX ERROR Handling
+    PARALLELIZE INTENSIVE SEGMENTS (PROFILE THE CODE)
+    OPTIMIZE PASSING OF DATA STRUCTURES BETWEEN FUNCTIONS
+    ADDING ERROR TO MISSING ELEMENTS IN ERROR COLUMN:
+        median of ( error(i) * sqrt(n_i) ) for other columns that have error
+
+0.  in plotting, make axis limits and tick marks general
+3.  batch fitting with correlation coefficients
+4.  bootstrapping with plotting confidence range
+5.  simulation of functions of fit parameters
+7.  ability to select a subset of data (and from which dataset) for fit or plotting
+9.  integrate bootstrap results plotting (distribution and correlation)
+10. normalize columns of same header in different files (overlay std footprinting from different gels)
+11. Dataset function to read in data files
+12. Replace lsqcurvefit with fmincon to be able to fix parameter values (equal upper and lower bounds)
+        Use Hessian to get confidence intervals
